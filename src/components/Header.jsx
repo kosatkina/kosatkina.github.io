@@ -16,10 +16,10 @@ export default function Header() {
                 </div>
                 <div className='col-md-8'>
                     <h1 className='display-4'>
-                        {PROFILE_INFO[0]} {PROFILE_INFO[1]}
+                        {PROFILE_INFO.first_name} {PROFILE_INFO.last_name}
                     </h1>
                     <p className='lead'>
-                        {PROFILE_INFO[2]}
+                        {PROFILE_INFO.intro}
                     </p>
                 </div>
             </div>
