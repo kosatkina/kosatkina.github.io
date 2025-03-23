@@ -5,7 +5,6 @@ import { useState, Fragment } from "react";
 import Header from "./components/Header.jsx";
 import TabButton from "./components/TabButton.jsx";
 import { MENU } from "./data.js";
-console.log(MENU);
 
 import "./App.css";
 
