@@ -32,8 +32,8 @@ function App() {
           <TabButton isSelected={selectedBtn === 'contact'}
                     onSelect={function() {handleSelectedBtn('contact')}}>Contact Info</TabButton>
           </menu>
-          {!selectedTopic ? <p>Please select a topic.</p> : null} 
-          {selectedTopic ? (
+          {!selectedBtn ? <p>Please select a button to learn more about me...</p> : null} 
+          {selectedBtn ? (
             <div id="tab_content">
               <h3>{MENU[selectedBtn].title}</h3>
               <p>{MENU[selectedBtn].description}</p>
