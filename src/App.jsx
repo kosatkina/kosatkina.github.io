@@ -1,12 +1,13 @@
 // React Hook
-import { Fragment, useState } from 'react';
+import { Fragment, useState } from "react";
 
 // Custom components
 import Header from "./components/Header.jsx";
-import TabButton from './components/TabButton.jsx';
-import { MENU } from './data.js';
+import TabButton from "./components/TabButton.jsx";
+import { MENU } from "./data.js";
+console.log(MENU);
 
-import './App.css';
+import "./App.css";
 
 function App() {
   // Call react hook to use state
@@ -18,7 +19,7 @@ function App() {
   }
 
   return (
-    <>
+    <Fragment>
       <Header />
       <main>
         <section id="menu">
@@ -41,7 +42,7 @@ function App() {
           ) : null}
         </section>
       </main>
-    </>
+    </Fragment>
   );
 }
 
