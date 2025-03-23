@@ -1,5 +1,5 @@
 // React Hook
-import { Fragment, useState } from "react";
+import { useState, Fragment } from "react";
 
 // Custom components
 import Header from "./components/Header.jsx";
