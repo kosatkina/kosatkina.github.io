@@ -12,7 +12,7 @@ export default function Header() {
         <div className='container mt-5'>
             <div className='row align-items-center'>
                 <div className='col-md-4 text-center'>
-                    <img src={profileImg} alt="Incognito" className='img-fluid rounded-circle' style={{maxWidth: '150px'}}/>
+                    <img src={profileImg} alt="Incognito" className='profile-img'/>
                 </div>
                 <div className='col-md-8'>
                     <h1 className='display-4'>
