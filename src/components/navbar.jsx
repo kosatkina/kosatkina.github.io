@@ -13,16 +13,16 @@ export default function Navbar() {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
-                <a className="nav-link" href="#home">Home</a>
+                <a className="nav-link" href="https://kosatkina.github.io/">Home</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="https://www.linkedin.com/in/tatiana-kosatkina-349838146/" target="_blank" rel="noopener noreferrer">
-                  LinkedIn
+                  <i class="fa-brands fa-linkedin"></i>
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="https://github.com/kosatkina" target="_blank" rel="noopener noreferrer">
-                  GitHub
+                  <i class="fa-brands fa-github"></i>
                 </a>
               </li>
               <li className="nav-item">
