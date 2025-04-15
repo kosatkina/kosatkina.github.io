@@ -2,6 +2,7 @@
 import { useState, Fragment } from "react";
 
 // Custom components
+import Navbar from "./components/navbar.jsx";
 import Header from "./components/Header.jsx";
 import TabButton from "./components/TabButton.jsx";
 import { MENU } from "./data.js";
@@ -19,6 +20,7 @@ function App() {
 
   return (
     <Fragment>
+      <Navbar />
       <Header />
       <main>
         <section id="menu">

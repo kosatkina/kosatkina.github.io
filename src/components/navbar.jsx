@@ -1,6 +1,6 @@
 import React from "react";
 
-function Navbar() {
+export default function Navbar() {
     return (
       <nav className="navbar navbar-expand-lg navbar-light bg-light border-bottom">
         <div className="container-fluid">
@@ -16,12 +16,12 @@ function Navbar() {
                 <a className="nav-link" href="#home">Home</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="https://www.linkedin.com/in/YOUR_PROFILE" target="_blank" rel="noopener noreferrer">
+                <a className="nav-link" href="https://www.linkedin.com/in/tatiana-kosatkina-349838146/" target="_blank" rel="noopener noreferrer">
                   LinkedIn
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="https://github.com/YOUR_USERNAME" target="_blank" rel="noopener noreferrer">
+                <a className="nav-link" href="https://github.com/kosatkina" target="_blank" rel="noopener noreferrer">
                   GitHub
                 </a>
               </li>
@@ -34,5 +34,3 @@ function Navbar() {
       </nav>
     );
   }
-  
-  export default Navbar;
