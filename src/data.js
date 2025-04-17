@@ -12,31 +12,97 @@ export const MENU = {
     education: {
         title: 'Education',
         description: [
-            'Conestoga College                      (09/2023 - 04/2027',
-            'Samara State Medical University        (09/2009 - 02/2015',
-        ],
+            {
+                heading: 'Conestoga College                      (09/2023 - 04/2027)',
+                subpoints: [
+                    'Software Engineering Technology',
+                ]
+            },
+            {
+                heading: 'Samara State Medical University        (09/2009 - 02/2015)',
+                subpoints: [
+                    'Master of Pharmacy',
+                ]
+            },
+        ]
     },
     skills: {
         title: 'Technical Skills',
         description: [
-            'Programming Languages:',
-            'Frontend Technologies:',
-            'Frameworks and Libraries:',
-            'Databases:',
-            'Other Tools and Thechnologies:',
+            {
+                heading: 'Programming Languages:',
+                subpoints: [
+                    'C/C++',
+                    'C#',
+                    'JavaScript',
+                ]
+            },
+            {
+                heading: 'Frontend Technologies:',
+                subpoints: [
+                    'HTML',
+                    'CSS',
+                    'React',
+                    'UX Design',
+                ]
+            },
+            {
+                heading: 'Frameworks and Libraries:',
+                subpoints: [
+                    '.NET Framework',
+                    'WPF',
+                    'Bootstrap',
+                ]
+            },
+            {
+                heading: 'Databases:',
+                subpoints: [
+                    'MySQL ',
+                ]
+            },
+            {
+                heading: 'Other Tools and Thechnologies:',
+                subpoints: [
+                    'Azure DevOps',
+                    'Git',
+                    'JSON/XML',
+                    'AJAX/jQuery'
+                ]
+            },
         ],
     },
     projects: {
         title: 'Project Work',
         description: [
-            'Personal Portfolio Website',
-            'Cinema Theatre Booking App (Group Project)',
+            {
+                heading: 'Personal Portfolio Website',
+                subpoints: [
+                    'Engineered a portfolio website using React, incorporating reusable components and a modular design system to streamline content updates and optimize front-end development time by 20%.',
+                    'Implemented a modern UI with Bootstrap, ensuring a clean and professional design.',
+                    'Optimized reusability and maintainability by following best practices in component-based development.',
+                    'Deployed on GitHub Pages, enabling seamless accessibility.',
+                ]
+            },
+            {
+                heading: 'Cinema Theatre Booking App (Group Project)',
+                subpoints: [
+                    'Designed and implemented a secure, scalable SQL database to store and manage dynamic booking data, ensuring improving data retrieval speed by 40%',
+                    'Spearheaded the development of reusable C function libraries for data validation, reducing code duplication by 30% and accelerating development cycles.',
+                    'Facilitated in project planning and progress tracking, ensuring adherence to development timelines.',
+                ]
+            },
         ],
     },
     experience: {
         title: 'Work Experience',
         description: [
-            'Store Associate, TJX Canada, Toronto   (11/2018 - 06/2020)',
+            {
+                heading: 'Store Associate, TJX Canada, Toronto   (11/2018 - 06/2020)',
+                subpoints: [
+                    'Optimized daily workflows, improving operational efficiency and reducing errors.',
+                    'Developed strong communication and problem-solving skills, collaborating with team members and customers in a fast-paced environment',
+                ]
+            },
         ],
     },
 };
