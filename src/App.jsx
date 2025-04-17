@@ -45,7 +45,7 @@ function App() {
               <ul className="description-list">
                 {MENU[selectedBtn].description.map((item, index) => (
                   <div key={index} className="item">
-                    <h4>{item.heading}</h4>
+                    <h5>{item.heading}</h5>
                     <ul>
                       {item.subpoints.map((point, subIndex) => (
                         <li key={subIndex}>{point}</li>

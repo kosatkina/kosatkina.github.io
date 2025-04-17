@@ -3,11 +3,23 @@ export const MENU = {
     highlights: {
         title: 'Highlights',
         description: [
-            'Strong foundation in object-oriented programming, full-stack development, and software engineering',
-            'Practical experience in front-end and back-end development through academic projects, applying debugging, testing, and performance optimization techniques',
-            'Exposure to Docker and Azure Cloud environment',
-            'Collaborated in team environments, participating in code reviews, testing, and workflow improvement',
-        ],
+            {
+                heading: 'Strong foundation in object-oriented programming, full-stack development, and software engineering',
+                    subpoints: []
+            },
+            {
+                heading: 'Practical experience in front-end and back-end development through academic projects, applying debugging, testing, and performance optimization techniques',
+                subpoints: []
+            },
+            {
+                heading: 'Exposure to Docker and Azure Cloud environment',
+                subpoints: []
+            },
+            {
+                heading: 'Collaborated in team environments, participating in code reviews, testing, and workflow improvement',
+                subpoints: []
+            },
+        ]
     },
     education: {
         title: 'Education',
