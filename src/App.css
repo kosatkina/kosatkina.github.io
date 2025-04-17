@@ -24,6 +24,12 @@
   color: white;
 }
 
+.description-list {
+  list-style-position: inside;
+  padding-left: 0;
+  text-align: left;
+}
+
 .App-link {
   color: #61dafb;
 }

@@ -5,9 +5,11 @@ import { useState, Fragment } from "react";
 import Navbar from "./components/navbar.jsx";
 import Header from "./components/Header.jsx";
 import TabButton from "./components/TabButton.jsx";
+
 import { MENU } from "./data.js";
 
 import "./App.css";
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
 function App() {
   // Call react hook to use state
@@ -27,18 +29,24 @@ function App() {
           <menu>
           <TabButton isSelected={selectedBtn === 'highlights'}
                     onSelect={function() {handleSelectedBtn('highlights')}}>Highlights</TabButton>
-          <TabButton isSelected={selectedBtn === 'resume'}
-                    onSelect={function() {handleSelectedBtn('resume')}}>Resume</TabButton>
+          <TabButton isSelected={selectedBtn === 'education'}
+                    onSelect={function() {handleSelectedBtn('education')}}>Education</TabButton>
+          <TabButton isSelected={selectedBtn === 'skills'}
+                    onSelect={function() {handleSelectedBtn('skills')}}>Technical Skills</TabButton>
           <TabButton isSelected={selectedBtn === 'projects'}
-                    onSelect={function() {handleSelectedBtn('projects')}}>Personal Projects</TabButton>
-          <TabButton isSelected={selectedBtn === 'contact'}
-                    onSelect={function() {handleSelectedBtn('contact')}}>Contact Info</TabButton>
+                    onSelect={function() {handleSelectedBtn('projects')}}>Project Work</TabButton>
+          <TabButton isSelected={selectedBtn === 'experience'}
+                    onSelect={function() {handleSelectedBtn('experience')}}>Work Experience</TabButton>
           </menu>
           {!selectedBtn ? <p>Please select a button to learn more about me...</p> : null} 
           {selectedBtn ? (
             <div id="tab_content">
               <h3>{MENU[selectedBtn].title}</h3>
-              <p>{MENU[selectedBtn].description}</p>
+              <ul className="description-list">
+                {MENU[selectedBtn].description.map((item, index) => (
+                  <li key={index}>{item}</li>
+                ))}
+              </ul>
             </div>
           ) : null}
         </section>

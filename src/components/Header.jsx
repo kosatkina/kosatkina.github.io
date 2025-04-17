@@ -1,4 +1,5 @@
 import profileImg from '../media/avatar.png';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
 const PROFILE_INFO = {
     first_name: 'Tatiana',
