@@ -5,6 +5,7 @@ export default function Navbar() {
   // Function to copy text to the clipboard
   const handleCopy = (text)=> {
     navigator.clipboard.writeText(text);
+    alert(`Copied: ${text}`)
   };
 
   return (
@@ -21,7 +22,7 @@ export default function Navbar() {
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
                 <a className="nav-link" href="https://www.linkedin.com/in/tatiana-kosatkina-349838146/" target="_blank" rel="noopener noreferrer">
-                <i className="bi bi-linkedin"></i>
+                <i className="bi bi-linkedin me-2"></i>
                 </a>
               </li>
               <li className="nav-item">
@@ -42,10 +43,10 @@ export default function Navbar() {
                       </button>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="#">
+                      <button className="dropdown-item" onClick={() => handleCopy("tkosatkina4510@conestogac.on.ca")}>
                         <i className="bi bi-envelope me-2"></i>
                         tkosatkina4510@conestogac.on.ca
-                      </a>
+                      </button>
                     </li>
                   </ul>
                 </div>
