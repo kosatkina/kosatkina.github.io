@@ -1,7 +1,13 @@
 import React from "react";
 
 export default function Navbar() {
-    return (
+    
+  // Function to copy text to the clipboard
+  const handleCopy = (text)=> {
+    navigator.clipboard.writeText(text);
+  };
+
+  return (
       <nav className="navbar navbar-expand-lg navbar-light bg-light border-bottom">
         <div className="container-fluid">
           <a className="navbar-brand" href="https://kosatkina.github.io/">
@@ -23,8 +29,26 @@ export default function Navbar() {
                 <i className="bi bi-github"></i>
                 </a>
               </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#contact">Contact</a>
+              <li className="nav-item dropdown">
+                <div className="btn-group dropstart">
+                  <button className="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                    Contact
+                  </button>
+                  <ul className="dropdown-menu">
+                    <li>
+                      <button className="dropdown-item" onClick={() => handleCopy("(647)224-4709")}>
+                        <i className="bi bi-telephone me-2"></i>
+                        (647)224-4709
+                      </button>
+                    </li>
+                    <li>
+                      <a className="dropdown-item" href="#">
+                        <i className="bi bi-envelope me-2"></i>
+                        tkosatkina4510@conestogac.on.ca
+                      </a>
+                    </li>
+                  </ul>
+                </div>
               </li>
             </ul>
           </div>
