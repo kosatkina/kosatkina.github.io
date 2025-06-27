@@ -54,7 +54,6 @@ export const MENU = {
                 subpoints: [
                     'HTML',
                     'CSS',
-                    'React',
                     'UX Design',
                 ]
             },
@@ -63,13 +62,15 @@ export const MENU = {
                 subpoints: [
                     '.NET Framework',
                     'WPF',
+                    'React',
                     'Bootstrap',
                 ]
             },
             {
                 heading: 'Databases:',
                 subpoints: [
-                    'MySQL ',
+                    'MySQL',
+                    'SQLite',
                 ]
             },
             {
@@ -106,12 +107,20 @@ export const MENU = {
         ],
     },
     experience: {
-        title: 'Work Experience',
+        title: 'Relevant Experience',
         description: [
+            {
+                heading: 'Computer Literacy Tutor (Volunteer), The Literacy Group, Kitchener   (06/2025 - Present)',
+                subpoints: [
+                    'Provide one-on-one support to adult learners on basic computer operations, email setup, and online safety',
+                    'Assist learners in troubleshooting hardware/software issues and adapting to new technology',
+                    'Certified Northstar Proctor; communicate learner progress and feedback to program staff for continuous improvement',
+                ]
+            },
             {
                 heading: 'Store Associate, TJX Canada, Toronto   (11/2018 - 06/2020)',
                 subpoints: [
-                    'Optimized daily workflows, improving operational efficiency and reducing errors.',
+                    'Optimized daily workflows, improving operational efficiency and reducing errors',
                     'Developed strong communication and problem-solving skills, collaborating with team members and customers in a fast-paced environment',
                 ]
             },

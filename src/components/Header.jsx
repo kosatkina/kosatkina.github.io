@@ -4,7 +4,7 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 const PROFILE_INFO = {
     first_name: 'Tatiana',
     last_name: 'Kosatkina',
-    intro: 'A second-year Software Engineering student at Conestoga College, passionate about applying my software development skills to create innovative solutions. I am actively seeking a co-op opportunity starting in Fall of 2025 and am eager to contribute to impactful projects and continue growing as a developer.',
+    intro: 'Motivated and detail-oriented Software Engineering student at Conestoga College, passionate about applying my software development skills to create innovative solutions. I am actively seeking a co-op opportunity starting in Fall of 2025 and am eager to contribute to impactful projects and continue growing as a developer.',
 };
 
 // Custom header component
