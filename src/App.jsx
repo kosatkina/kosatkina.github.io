@@ -36,7 +36,7 @@ function App() {
           <TabButton isSelected={selectedBtn === 'projects'}
                     onSelect={function() {handleSelectedBtn('projects')}}>Project Work</TabButton>
           <TabButton isSelected={selectedBtn === 'experience'}
-                    onSelect={function() {handleSelectedBtn('experience')}}>Work Experience</TabButton>
+                    onSelect={function() {handleSelectedBtn('experience')}}>Relevant Experience</TabButton>
           </menu>
           {!selectedBtn ? <p>Please select a button to learn more about me...</p> : null} 
           {selectedBtn ? (
